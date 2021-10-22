@@ -1,0 +1,3 @@
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/t2_916_Popa_Andrei_Calin_1.dir
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

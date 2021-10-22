@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="a23_916_Popa_Andrei_Calin" targetName="a23_916_Popa_Andrei_Calin" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fb53b63-deb0-4bad-9750-47b7d673db75" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pObdHLIxQt3skvXFp3nle8vOAt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/header files" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrei\Documents\GitHub\a23-916-Popa-Andrei-Calin_backup" />
+      <recent name="C:\Users\Andrei\Documents\GitHub\a23-916-Popa-Andrei-Calin\header files" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="a23_916_Popa_Andrei_Calin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="a23_916_Popa_Andrei_Calin" TARGET_NAME="a23_916_Popa_Andrei_Calin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="a23_916_Popa_Andrei_Calin" RUN_TARGET_NAME="a23_916_Popa_Andrei_Calin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb53b63-deb0-4bad-9750-47b7d673db75" name="Default Changelist" comment="" />
+      <created>1615057172867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615057172867</updated>
+      <workItem from="1615057177936" duration="11687000" />
+      <workItem from="1615117318332" duration="16827000" />
+      <workItem from="1615218974939" duration="7398000" />
+      <workItem from="1615370754048" duration="7203000" />
+      <workItem from="1615736163197" duration="13928000" />
+      <workItem from="1615755628635" duration="2227000" />
+      <workItem from="1615829917984" duration="10845000" />
+      <workItem from="1615900913260" duration="12290000" />
+      <workItem from="1615930654961" duration="458000" />
+<<<<<<< HEAD
+      <workItem from="1615931149287" duration="1986000" />
+      <workItem from="1615979169237" duration="2867000" />
+      <workItem from="1616264210820" duration="16931000" />
+      <workItem from="1616282091167" duration="7000" />
+=======
+      <workItem from="1615933187415" duration="83000" />
+      <workItem from="1615935370396" duration="404000" />
+>>>>>>> f4955b3360e3823a4a0ea0c9090359838db87237
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

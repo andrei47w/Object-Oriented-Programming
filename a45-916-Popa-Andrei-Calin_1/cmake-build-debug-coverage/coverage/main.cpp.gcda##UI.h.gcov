@@ -1,0 +1,50 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/headers/UI.h
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#pragma once
+        -:    6:
+        -:    7:#include "Controller.h"
+        -:    8:
+        -:    9:class UI {
+        -:   10:private:
+        -:   11:    Controller ctrl;
+        -:   12:
+        -:   13:public:
+        1:   14:    UI(const Controller &c) : ctrl(c) {}
+        1:   14-block  0
+        -:   15:    //~UI();
+        -:   16:
+        -:   17:    void run();
+        -:   18:
+        -:   19:private:
+        -:   20:    static void printMenu();
+        -:   21:
+        -:   22:    static void printRepositoryMenu();
+        -:   23:
+        -:   24:    void addTutorialToRepo();
+        -:   25:
+        -:   26:    void deleteTutorialFromRepo();
+        -:   27:
+        -:   28:    void updateTutorialFromRepo();
+        -:   29:
+        -:   30:    void displayAllTutorialsRepo();
+        -:   31:
+        -:   32:    static void printTemplate();
+        -:   33:
+        -:   34:    static void watchlistPrintTemplate();
+        -:   35:
+        -:   36:    static void printTutorial(const Tutorial &t, bool flag = true);
+        -:   37:
+        -:   38:    static void printWatchListMenu();
+        -:   39:
+        -:   40:    void addTutorialToWatchlist();
+        -:   41:
+        -:   42:    void viewWatchlist();
+        -:   43:};
+        -:   44:

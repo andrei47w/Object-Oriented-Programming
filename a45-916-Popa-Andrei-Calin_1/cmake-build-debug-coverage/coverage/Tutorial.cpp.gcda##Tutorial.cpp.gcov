@@ -1,0 +1,56 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/Tutorial.cpp
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Tutorial.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Tutorial.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "headers/Tutorial.h"
+        -:    6:#include <Windows.h>
+        -:    7:#include <shellapi.h>
+        -:    8:
+      338:    9:Tutorial::Tutorial() : title(""), presenter(""), duration(Duration()), numberOfLikes(0), source(""), noViews(0) {}
+      338:    9-block  0
+      338:    9-block  1
+      338:    9-block  2
+      338:    9-block  3
+    $$$$$:    9-block  4
+    $$$$$:    9-block  5
+    $$$$$:    9-block  6
+    $$$$$:    9-block  7
+    $$$$$:    9-block  8
+    $$$$$:    9-block  9
+    $$$$$:    9-block 10
+    $$$$$:    9-block 11
+        -:   10:
+        -:   11:
+       11:   12:Tutorial::Tutorial(const std::string &title, const std::string &presenter, const Duration &duration,
+       11:   13:                   const double &noLikes, const std::string &source, const double &noViews) {
+       11:   13-block  0
+    $$$$$:   13-block  1
+    $$$$$:   13-block  2
+    $$$$$:   13-block  3
+       11:   14:    this->title = title;
+       11:   15:    this->presenter = presenter;
+       11:   15-block  0
+       11:   16:    this->duration = duration;
+       11:   17:    this->numberOfLikes = noLikes;
+       11:   18:    this->source = source;
+       11:   18-block  0
+       11:   19:    this->noViews = noViews;
+       11:   20:}
+       11:   20-block  0
+        -:   21:
+        4:   22:void Tutorial::open() {
+        4:   23:    ShellExecuteA(NULL, NULL, "chrome.exe", this->getSource().c_str(), NULL, SW_SHOWMAXIMIZED);
+        4:   23-block  0
+        4:   23-block  1
+    $$$$$:   23-block  2
+        4:   24:}
+        -:   25:
+        1:   26:bool Tutorial::operator<(int value) {
+        1:   27:    return this->noViews < value;
+        1:   27-block  0
+        -:   28:}

@@ -1,0 +1,6 @@
+CodeVault,Detecting memory leaks in Visual Studio,175,9545,6,33,https://www.youtube.com/watch?v=t1wqj6J6Vhs
+CodeVault,Difference between arrays and pointers in C,96,4933,11,22,https://www.youtube.com/watch?v=iSZLE9qPN14
+title,google,10,100,0,0,https://www.google.com
+pres1,title1,100,1000,1,1,https://www.google.com/search?q=1
+pres2,title2,200,2000,2,2,https://www.google.com/search?q=2
+pres3,title3,300,3000,3,3,https://www.google.com/search?q=3

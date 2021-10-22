@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/UI.c
+service.c
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/service.c
+tests.c
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/tests.c
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/material.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/repo.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/service.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/tests.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/main.c
+string.h
+-
+stdio.h
+-
+string.h
+-
+stdio.h
+-
+crtdbg.h
+-
+header files/material.h
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/material.h
+UI.c
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/UI.c
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/materials.c
+header files/material.h
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/material.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/repo.c
+materials.c
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/materials.c
+header files/repo.h
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/repo.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/service.c
+stdlib.h
+-
+repo.c
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/repo.c
+header files/service.h
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/service.h
+
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/tests.c
+assert.h
+-
+header files/tests.h
+C:/Users/Andrei/Documents/GitHub/a23-916-Popa-Andrei-Calin_e/header files/tests.h
+

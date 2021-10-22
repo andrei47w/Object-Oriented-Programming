@@ -1,0 +1,8 @@
+-IC:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/GUI
+-IC:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/headers
+-IC:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin
+-IC:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug
+-DWIN32
+-o
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/moc_gui.cpp
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/gui.cpp

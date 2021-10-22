@@ -1,0 +1,882 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/Tests.cpp
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Tests.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Tests.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/24/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include <string>
+        -:    6:#include <crtdbg.h>
+        -:    7:#include "headers/Tests.h"
+        -:    8:#include "headers/UI.h"
+        -:    9:#include <stdlib.h>
+        -:   10:#include <iostream>
+        -:   11:#include "headers/Tests.h"
+        -:   12:
+        1:   13:void test_vector() {
+        2:   14:    DynamicVector<int> d{2};
+        1:   14-block  0
+        1:   14-block  1
+    $$$$$:   14-block  2
+        -:   15:
+        -:   16:    //add + getSize
+        1:   17:    d = 2 + d;
+        1:   17-block  0
+    $$$$$:   17-block  1
+        1:   18:    d = d + 1;
+        1:   18-block  0
+    $$$$$:   18-block  1
+        1:   19:    d.add(3);
+        1:   19-block  0
+    $$$$$:   19-block  1
+        1:   20:    d.add(4);
+        1:   20-block  0
+    $$$$$:   20-block  1
+        1:   21:    d.add(5);
+        1:   21-block  0
+    $$$$$:   21-block  1
+       1*:   22:    assert(d.getSize() == 5);
+        1:   22-block  0
+    %%%%%:   22-block  1
+        1:   22-block  2
+    %%%%%:   22-block  3
+        -:   23:
+        -:   24:    //delete + overloading operator []
+        1:   25:    d.deleteElem(1);
+        1:   25-block  0
+        1:   26:    d.deleteElem(-1);
+        1:   26-block  0
+       1*:   27:    assert(d.getSize() == 4);
+        1:   27-block  0
+    %%%%%:   27-block  1
+        1:   27-block  2
+    %%%%%:   27-block  3
+       1*:   28:    assert(d[1] == 3);
+        1:   28-block  0
+    %%%%%:   28-block  1
+        1:   28-block  2
+    %%%%%:   28-block  3
+       1*:   29:    assert(d[0] == 2);
+        1:   29-block  0
+    %%%%%:   29-block  1
+        1:   29-block  2
+    %%%%%:   29-block  3
+        1:   30:    d.getAllElems();
+        1:   30-block  0
+       1*:   31:    assert(d[0] == 2);
+    %%%%%:   31-block  0
+        1:   31-block  1
+    %%%%%:   31-block  2
+        1:   32:}
+        -:   33:
+        1:   34:void test_repo_ctrl_iterator() {
+        2:   35:    Tutorial s1{"F", "D", Duration{3, 38}, 200, "https://www.youtube.com/watch?v=iSZLE9qPN14", 20};
+        1:   35-block  0
+        1:   35-block  1
+        1:   35-block  2
+        1:   35-block  3
+        1:   35-block  4
+    $$$$$:   35-block  5
+    $$$$$:   35-block  6
+    $$$$$:   35-block  7
+    $$$$$:   35-block  8
+    $$$$$:   35-block  9
+    $$$$$:   35-block 10
+    $$$$$:   35-block 11
+    $$$$$:   35-block 12
+    $$$$$:   35-block 13
+    $$$$$:   35-block 14
+       1*:   36:    assert(s1.getPresenter() == "D");
+        1:   36-block  0
+    %%%%%:   36-block  1
+        1:   36-block  2
+    %%%%%:   36-block  3
+        1:   36-block  4
+        1:   36-block  5
+    $$$$$:   36-block  6
+    $$$$$:   36-block  7
+    $$$$$:   36-block  8
+       1*:   37:    assert(s1.getTitle() == "F");
+        1:   37-block  0
+        1:   37-block  1
+    %%%%%:   37-block  2
+        1:   37-block  3
+    %%%%%:   37-block  4
+        1:   37-block  5
+        1:   37-block  6
+    $$$$$:   37-block  7
+    $$$$$:   37-block  8
+    $$$$$:   37-block  9
+       1*:   38:    assert(s1.getDuration().getMinutes() == 3);
+        1:   38-block  0
+    %%%%%:   38-block  1
+        1:   38-block  2
+    %%%%%:   38-block  3
+    $$$$$:   38-block  4
+       1*:   39:    assert(s1.getDuration().getSeconds() == 38);
+        1:   39-block  0
+    %%%%%:   39-block  1
+        1:   39-block  2
+    %%%%%:   39-block  3
+    $$$$$:   39-block  4
+       1*:   40:    assert(s1.getNoLikes() == 200);
+        1:   40-block  0
+    %%%%%:   40-block  1
+        1:   40-block  2
+    %%%%%:   40-block  3
+       1*:   41:    assert(s1.getSource() == "https://www.youtube.com/watch?v=iSZLE9qPN14");
+        1:   41-block  0
+        1:   41-block  1
+    %%%%%:   41-block  2
+        1:   41-block  3
+    %%%%%:   41-block  4
+        1:   41-block  5
+        1:   41-block  6
+    $$$$$:   41-block  7
+    $$$$$:   41-block  8
+    $$$$$:   41-block  9
+        1:   42:    s1.like();
+        1:   42-block  0
+       1*:   43:    assert(s1.getNoLikes() == 201);
+    %%%%%:   43-block  0
+        1:   43-block  1
+    %%%%%:   43-block  2
+        1:   44:    s1.open();
+        1:   44-block  0
+        -:   45:
+        2:   46:    Repository repo{};
+        1:   46-block  0
+    $$$$$:   46-block  1
+        2:   47:    Tutorial s2{"T", "I", Duration{8, 12}, 200, "https://www.youtube.com/watch?v=iSZLE9qPN14"};
+        1:   47-block  0
+        1:   47-block  1
+        1:   47-block  2
+        1:   47-block  3
+        1:   47-block  4
+    $$$$$:   47-block  5
+    $$$$$:   47-block  6
+    $$$$$:   47-block  7
+    $$$$$:   47-block  8
+    $$$$$:   47-block  9
+    $$$$$:   47-block 10
+    $$$$$:   47-block 11
+    $$$$$:   47-block 12
+    $$$$$:   47-block 13
+    $$$$$:   47-block 14
+        2:   48:    Tutorial s3{"S", "E", Duration{3, 47}, 200, "https://www.youtube.com/watch?v=iSZLE9qPN14"};
+        1:   48-block  0
+        1:   48-block  1
+        1:   48-block  2
+        1:   48-block  3
+    $$$$$:   48-block  4
+    $$$$$:   48-block  5
+    $$$$$:   48-block  6
+    $$$$$:   48-block  7
+    $$$$$:   48-block  8
+    $$$$$:   48-block  9
+    $$$$$:   48-block 10
+    $$$$$:   48-block 11
+    $$$$$:   48-block 12
+    $$$$$:   48-block 13
+        -:   49:
+       1*:   50:    assert(s2 < s1.getNoViews());
+        1:   50-block  0
+    %%%%%:   50-block  1
+        1:   50-block  2
+    %%%%%:   50-block  3
+        1:   51:    repo.addTutorial(s1);
+        1:   51-block  0
+        1:   52:    repo.addTutorial(s2);
+        1:   52-block  0
+        1:   53:    repo.addTutorial(s3);
+        1:   53-block  0
+        -:   54:
+        -:   55:    // find by title and presenter
+       1*:   56:    assert(repo.findByPresenterAndTitle("D", "F").getPresenter() == s1.getPresenter());
+        1:   56-block  0
+        1:   56-block  1
+        1:   56-block  2
+        1:   56-block  3
+        1:   56-block  4
+        1:   56-block  5
+    %%%%%:   56-block  6
+        1:   56-block  7
+    %%%%%:   56-block  8
+        1:   56-block  9
+        1:   56-block 10
+        1:   56-block 11
+        1:   56-block 12
+        1:   56-block 13
+        1:   56-block 14
+        1:   56-block 15
+        1:   56-block 16
+        1:   56-block 17
+        1:   56-block 18
+        1:   56-block 19
+        1:   56-block 20
+        1:   56-block 21
+        1:   56-block 22
+    $$$$$:   56-block 23
+    $$$$$:   56-block 24
+    $$$$$:   56-block 25
+    $$$$$:   56-block 26
+    $$$$$:   56-block 27
+    $$$$$:   56-block 28
+    $$$$$:   56-block 29
+    $$$$$:   56-block 30
+    $$$$$:   56-block 31
+    $$$$$:   56-block 32
+    $$$$$:   56-block 33
+    $$$$$:   56-block 34
+    $$$$$:   56-block 35
+    $$$$$:   56-block 36
+    $$$$$:   56-block 37
+    $$$$$:   56-block 38
+    $$$$$:   56-block 39
+    $$$$$:   56-block 40
+    $$$$$:   56-block 41
+    $$$$$:   56-block 42
+    $$$$$:   56-block 43
+       1*:   57:    assert(repo.findByPresenterAndTitle("D", "F").getTitle() == s1.getTitle());
+        1:   57-block  0
+        1:   57-block  1
+        1:   57-block  2
+        1:   57-block  3
+        1:   57-block  4
+        1:   57-block  5
+    %%%%%:   57-block  6
+        1:   57-block  7
+    %%%%%:   57-block  8
+        1:   57-block  9
+        1:   57-block 10
+        1:   57-block 11
+        1:   57-block 12
+        1:   57-block 13
+        1:   57-block 14
+        1:   57-block 15
+        1:   57-block 16
+        1:   57-block 17
+        1:   57-block 18
+        1:   57-block 19
+        1:   57-block 20
+        1:   57-block 21
+        1:   57-block 22
+    $$$$$:   57-block 23
+    $$$$$:   57-block 24
+    $$$$$:   57-block 25
+    $$$$$:   57-block 26
+    $$$$$:   57-block 27
+    $$$$$:   57-block 28
+    $$$$$:   57-block 29
+    $$$$$:   57-block 30
+    $$$$$:   57-block 31
+    $$$$$:   57-block 32
+    $$$$$:   57-block 33
+    $$$$$:   57-block 34
+    $$$$$:   57-block 35
+    $$$$$:   57-block 36
+    $$$$$:   57-block 37
+    $$$$$:   57-block 38
+    $$$$$:   57-block 39
+    $$$$$:   57-block 40
+    $$$$$:   57-block 41
+    $$$$$:   57-block 42
+    $$$$$:   57-block 43
+        -:   58:
+        -:   59:    // find pos of tutorial
+       1*:   60:    assert(repo.findPosOfTutorial(s1) == 0);
+        1:   60-block  0
+        1:   60-block  1
+    %%%%%:   60-block  2
+        1:   60-block  3
+    %%%%%:   60-block  4
+       1*:   61:    assert(repo.findPosOfTutorial(s2) == 1);
+        1:   61-block  0
+        1:   61-block  1
+    %%%%%:   61-block  2
+        1:   61-block  3
+    %%%%%:   61-block  4
+       1*:   62:    assert(repo.findPosOfTutorial(Tutorial{}) == -1);
+        1:   62-block  0
+        1:   62-block  1
+        1:   62-block  2
+    %%%%%:   62-block  3
+        1:   62-block  4
+    %%%%%:   62-block  5
+        1:   62-block  6
+        1:   62-block  7
+    $$$$$:   62-block  8
+    $$$$$:   62-block  9
+    $$$$$:   62-block 10
+        -:   63:
+        -:   64:    // get all
+        2:   65:    DynamicVector<Tutorial> dRepo = repo.getTutorials();
+        1:   65-block  0
+    $$$$$:   65-block  1
+       1*:   66:    assert(dRepo[0].getPresenter() == s1.getPresenter());
+        1:   66-block  0
+        1:   66-block  1
+        1:   66-block  2
+    %%%%%:   66-block  3
+        1:   66-block  4
+    %%%%%:   66-block  5
+        1:   66-block  6
+        1:   66-block  7
+        1:   66-block  8
+        1:   66-block  9
+    $$$$$:   66-block 10
+    $$$$$:   66-block 11
+    $$$$$:   66-block 12
+    $$$$$:   66-block 13
+    $$$$$:   66-block 14
+    $$$$$:   66-block 15
+       1*:   67:    assert(dRepo[1].getPresenter() == s2.getPresenter());
+        1:   67-block  0
+        1:   67-block  1
+        1:   67-block  2
+    %%%%%:   67-block  3
+        1:   67-block  4
+    %%%%%:   67-block  5
+        1:   67-block  6
+        1:   67-block  7
+        1:   67-block  8
+        1:   67-block  9
+    $$$$$:   67-block 10
+    $$$$$:   67-block 11
+    $$$$$:   67-block 12
+    $$$$$:   67-block 13
+    $$$$$:   67-block 14
+    $$$$$:   67-block 15
+       1*:   68:    assert(dRepo[2].getPresenter() == s3.getPresenter());
+        1:   68-block  0
+        1:   68-block  1
+        1:   68-block  2
+    %%%%%:   68-block  3
+        1:   68-block  4
+    %%%%%:   68-block  5
+        1:   68-block  6
+        1:   68-block  7
+        1:   68-block  8
+        1:   68-block  9
+    $$$$$:   68-block 10
+    $$$$$:   68-block 11
+    $$$$$:   68-block 12
+    $$$$$:   68-block 13
+    $$$$$:   68-block 14
+    $$$$$:   68-block 15
+        -:   69:
+        -:   70:    // remove
+       1*:   71:    assert(repo.removeTutorial(s1.getPresenter(), s1.getTitle()));
+        1:   71-block  0
+        1:   71-block  1
+        1:   71-block  2
+        1:   71-block  3
+    %%%%%:   71-block  4
+        1:   71-block  5
+    %%%%%:   71-block  6
+        1:   71-block  7
+        1:   71-block  8
+        1:   71-block  9
+        1:   71-block 10
+    $$$$$:   71-block 11
+    $$$$$:   71-block 12
+    $$$$$:   71-block 13
+    $$$$$:   71-block 14
+    $$$$$:   71-block 15
+    $$$$$:   71-block 16
+        1:   72:    repo.addTutorial(s1);
+        1:   72-block  0
+        -:   73:
+        -:   74:    // CONTROLLER TESTS
+        2:   75:    Controller ctrl{repo};
+        1:   75-block  0
+    $$$$$:   75-block  1
+        -:   76:
+       1*:   77:    assert(ctrl.getRepo().getTutorials().getSize() == repo.getTutorials().getSize());
+        1:   77-block  0
+        1:   77-block  1
+        1:   77-block  2
+        1:   77-block  3
+    %%%%%:   77-block  4
+        1:   77-block  5
+    %%%%%:   77-block  6
+        1:   77-block  7
+        1:   77-block  8
+        1:   77-block  9
+        1:   77-block 10
+        1:   77-block 11
+        1:   77-block 12
+    $$$$$:   77-block 13
+    $$$$$:   77-block 14
+    $$$$$:   77-block 15
+    $$$$$:   77-block 16
+    $$$$$:   77-block 17
+    $$$$$:   77-block 18
+    $$$$$:   77-block 19
+    $$$$$:   77-block 20
+    $$$$$:   77-block 21
+       1*:   78:    assert(ctrl.getWatchlist().getTutorials().getSize() == 0);
+        1:   78-block  0
+        1:   78-block  1
+        1:   78-block  2
+    %%%%%:   78-block  3
+        1:   78-block  4
+    %%%%%:   78-block  5
+        1:   78-block  6
+        1:   78-block  7
+        1:   78-block  8
+        1:   78-block  9
+    $$$$$:   78-block 10
+    $$$$$:   78-block 11
+    $$$$$:   78-block 12
+    $$$$$:   78-block 13
+    $$$$$:   78-block 14
+    $$$$$:   78-block 15
+        -:   79:
+        -:   80:    // add
+       1*:   81:    assert(!ctrl.addTutorialToRepository(s1.getPresenter(), s1.getTitle(), 2, 2, 2, "232"));
+        1:   81-block  0
+        1:   81-block  1
+        1:   81-block  2
+        1:   81-block  3
+        1:   81-block  4
+    %%%%%:   81-block  5
+        1:   81-block  6
+    %%%%%:   81-block  7
+        1:   81-block  8
+        1:   81-block  9
+        1:   81-block 10
+        1:   81-block 11
+        1:   81-block 12
+        1:   81-block 13
+        1:   81-block 14
+        1:   81-block 15
+    $$$$$:   81-block 16
+    $$$$$:   81-block 17
+    $$$$$:   81-block 18
+    $$$$$:   81-block 19
+    $$$$$:   81-block 20
+    $$$$$:   81-block 21
+    $$$$$:   81-block 22
+    $$$$$:   81-block 23
+    $$$$$:   81-block 24
+    $$$$$:   81-block 25
+    $$$$$:   81-block 26
+    $$$$$:   81-block 27
+       1*:   82:    assert(!ctrl.addTutorialToRepository(s1.getPresenter(), s1.getTitle(), 2, 2, 2, "232"));
+        1:   82-block  0
+        1:   82-block  1
+        1:   82-block  2
+        1:   82-block  3
+        1:   82-block  4
+    %%%%%:   82-block  5
+        1:   82-block  6
+    %%%%%:   82-block  7
+        1:   82-block  8
+        1:   82-block  9
+        1:   82-block 10
+        1:   82-block 11
+        1:   82-block 12
+        1:   82-block 13
+        1:   82-block 14
+        1:   82-block 15
+    $$$$$:   82-block 16
+    $$$$$:   82-block 17
+    $$$$$:   82-block 18
+    $$$$$:   82-block 19
+    $$$$$:   82-block 20
+    $$$$$:   82-block 21
+    $$$$$:   82-block 22
+    $$$$$:   82-block 23
+    $$$$$:   82-block 24
+    $$$$$:   82-block 25
+    $$$$$:   82-block 26
+    $$$$$:   82-block 27
+        -:   83:
+        -:   84:    // remove
+       1*:   85:    assert(ctrl.removeTutorialFromRepository(s1.getPresenter(), s1.getTitle()));
+        1:   85-block  0
+        1:   85-block  1
+        1:   85-block  2
+        1:   85-block  3
+    %%%%%:   85-block  4
+        1:   85-block  5
+    %%%%%:   85-block  6
+        1:   85-block  7
+        1:   85-block  8
+        1:   85-block  9
+        1:   85-block 10
+    $$$$$:   85-block 11
+    $$$$$:   85-block 12
+    $$$$$:   85-block 13
+    $$$$$:   85-block 14
+    $$$$$:   85-block 15
+    $$$$$:   85-block 16
+       1*:   86:    assert(!ctrl.removeTutorialFromRepository(s1.getPresenter(), s1.getTitle()));
+        1:   86-block  0
+        1:   86-block  1
+        1:   86-block  2
+        1:   86-block  3
+    %%%%%:   86-block  4
+        1:   86-block  5
+    %%%%%:   86-block  6
+        1:   86-block  7
+        1:   86-block  8
+        1:   86-block  9
+        1:   86-block 10
+    $$$$$:   86-block 11
+    $$$$$:   86-block 12
+    $$$$$:   86-block 13
+    $$$$$:   86-block 14
+    $$$$$:   86-block 15
+    $$$$$:   86-block 16
+        -:   87:
+        -:   88:    // update
+       1*:   89:    assert(!ctrl.updateTutorialFromRepository(s2.getPresenter(), s2.getTitle(), 23, 23, 23, "sdfs", s3.getPresenter(),
+        1:   89-block  0
+        1:   89-block  1
+        1:   89-block  2
+        1:   89-block  3
+        1:   89-block  4
+        1:   89-block  5
+        1:   89-block  6
+    %%%%%:   89-block  7
+        1:   89-block  8
+    %%%%%:   89-block  9
+        1:   89-block 10
+        1:   89-block 11
+        1:   89-block 12
+        1:   89-block 13
+        1:   89-block 14
+        1:   89-block 15
+        1:   89-block 16
+        1:   89-block 17
+        1:   89-block 18
+        1:   89-block 19
+        1:   89-block 20
+        1:   89-block 21
+    $$$$$:   89-block 22
+    $$$$$:   89-block 23
+    $$$$$:   89-block 24
+    $$$$$:   89-block 25
+    $$$$$:   89-block 26
+    $$$$$:   89-block 27
+    $$$$$:   89-block 28
+    $$$$$:   89-block 29
+    $$$$$:   89-block 30
+    $$$$$:   89-block 31
+    $$$$$:   89-block 32
+    $$$$$:   89-block 33
+    $$$$$:   89-block 34
+    $$$$$:   89-block 35
+    $$$$$:   89-block 36
+    $$$$$:   89-block 37
+    $$$$$:   89-block 38
+    $$$$$:   89-block 39
+        -:   90:                                              s3.getTitle()));
+       1*:   91:    assert(ctrl.updateTutorialFromRepository(s3.getPresenter(), s3.getTitle(), 23, 23, 23, "sdfs", "test", "update"));
+        1:   91-block  0
+        1:   91-block  1
+        1:   91-block  2
+        1:   91-block  3
+        1:   91-block  4
+        1:   91-block  5
+        1:   91-block  6
+    %%%%%:   91-block  7
+        1:   91-block  8
+    %%%%%:   91-block  9
+        1:   91-block 10
+        1:   91-block 11
+        1:   91-block 12
+        1:   91-block 13
+        1:   91-block 14
+        1:   91-block 15
+        1:   91-block 16
+        1:   91-block 17
+        1:   91-block 18
+        1:   91-block 19
+        1:   91-block 20
+        1:   91-block 21
+        1:   91-block 22
+        1:   91-block 23
+        1:   91-block 24
+        1:   91-block 25
+    $$$$$:   91-block 26
+    $$$$$:   91-block 27
+    $$$$$:   91-block 28
+    $$$$$:   91-block 29
+    $$$$$:   91-block 30
+    $$$$$:   91-block 31
+    $$$$$:   91-block 32
+    $$$$$:   91-block 33
+    $$$$$:   91-block 34
+    $$$$$:   91-block 35
+    $$$$$:   91-block 36
+    $$$$$:   91-block 37
+    $$$$$:   91-block 38
+    $$$$$:   91-block 39
+    $$$$$:   91-block 40
+    $$$$$:   91-block 41
+    $$$$$:   91-block 42
+    $$$$$:   91-block 43
+    $$$$$:   91-block 44
+    $$$$$:   91-block 45
+    $$$$$:   91-block 46
+    $$$$$:   91-block 47
+    $$$$$:   91-block 48
+    $$$$$:   91-block 49
+       1*:   92:    assert(!ctrl.updateTutorialFromRepository(s1.getPresenter(), s1.getTitle(), 23, 23, 23, "sdfs", "test", "update"));
+        1:   92-block  0
+        1:   92-block  1
+        1:   92-block  2
+        1:   92-block  3
+        1:   92-block  4
+        1:   92-block  5
+        1:   92-block  6
+    %%%%%:   92-block  7
+        1:   92-block  8
+    %%%%%:   92-block  9
+        1:   92-block 10
+        1:   92-block 11
+        1:   92-block 12
+        1:   92-block 13
+        1:   92-block 14
+        1:   92-block 15
+        1:   92-block 16
+        1:   92-block 17
+        1:   92-block 18
+        1:   92-block 19
+        1:   92-block 20
+        1:   92-block 21
+        1:   92-block 22
+        1:   92-block 23
+        1:   92-block 24
+        1:   92-block 25
+    $$$$$:   92-block 26
+    $$$$$:   92-block 27
+    $$$$$:   92-block 28
+    $$$$$:   92-block 29
+    $$$$$:   92-block 30
+    $$$$$:   92-block 31
+    $$$$$:   92-block 32
+    $$$$$:   92-block 33
+    $$$$$:   92-block 34
+    $$$$$:   92-block 35
+    $$$$$:   92-block 36
+    $$$$$:   92-block 37
+    $$$$$:   92-block 38
+    $$$$$:   92-block 39
+    $$$$$:   92-block 40
+    $$$$$:   92-block 41
+    $$$$$:   92-block 42
+    $$$$$:   92-block 43
+    $$$$$:   92-block 44
+    $$$$$:   92-block 45
+    $$$$$:   92-block 46
+    $$$$$:   92-block 47
+    $$$$$:   92-block 48
+    $$$$$:   92-block 49
+        -:   93:
+        -:   94:    //add
+        1:   95:    ctrl.addTutorialToWatchlist(s1);
+        1:   95-block  0
+        1:   96:    ctrl.addTutorialToRepository(s1.getPresenter(), s1.getTitle(), 22, 2, 2, "sdfs");
+        1:   96-block  0
+        1:   96-block  1
+        1:   96-block  2
+        1:   96-block  3
+        1:   96-block  4
+    $$$$$:   96-block  5
+    $$$$$:   96-block  6
+    $$$$$:   96-block  7
+    $$$$$:   96-block  8
+    $$$$$:   96-block  9
+    $$$$$:   96-block 10
+    $$$$$:   96-block 11
+    $$$$$:   96-block 12
+       1*:   97:    assert(ctrl.getWatchlist().getTutorials().getSize() == 1);
+        1:   97-block  0
+        1:   97-block  1
+    %%%%%:   97-block  2
+        1:   97-block  3
+    %%%%%:   97-block  4
+        1:   97-block  5
+        1:   97-block  6
+        1:   97-block  7
+        1:   97-block  8
+    $$$$$:   97-block  9
+    $$$$$:   97-block 10
+    $$$$$:   97-block 11
+    $$$$$:   97-block 12
+    $$$$$:   97-block 13
+    $$$$$:   97-block 14
+        -:   98:
+        -:   99:    // ITERATOR TESTS
+        1:  100:    ctrl.configIterator(s1.getTitle());
+        1:  100-block  0
+        1:  100-block  1
+        1:  100-block  2
+    $$$$$:  100-block  3
+    $$$$$:  100-block  4
+        1:  101:    ctrl.startIteration();
+        -:  102:
+        2:  103:    Repository repo2{};
+        1:  103-block  0
+    $$$$$:  103-block  1
+        1:  104:    repo2.addTutorial(s1);
+        1:  104-block  0
+        1:  105:    repo2.addTutorial(s2);
+        1:  105-block  0
+        -:  106:
+        2:  107:    Controller ctrl2{repo2};
+        1:  107-block  0
+    $$$$$:  107-block  1
+        1:  108:    ctrl.configIterator("");
+        1:  108-block  0
+        1:  108-block  1
+        1:  108-block  2
+    $$$$$:  108-block  3
+    $$$$$:  108-block  4
+    $$$$$:  108-block  5
+    $$$$$:  108-block  6
+        1:  109:    ctrl.startIteration();
+        1:  110:    ctrl2.configIterator(s1.getPresenter());
+        1:  110-block  0
+        1:  110-block  1
+        1:  110-block  2
+    $$$$$:  110-block  3
+    $$$$$:  110-block  4
+        1:  111:    ctrl2.startIteration();
+       1*:  112:    assert(ctrl2.getCurrentTutorial().getTitle() == s1.getTitle());
+        1:  112-block  0
+        1:  112-block  1
+        1:  112-block  2
+        1:  112-block  3
+    %%%%%:  112-block  4
+        1:  112-block  5
+    %%%%%:  112-block  6
+        1:  112-block  7
+        1:  112-block  8
+        1:  112-block  9
+        1:  112-block 10
+        1:  112-block 11
+        1:  112-block 12
+    $$$$$:  112-block 13
+    $$$$$:  112-block 14
+    $$$$$:  112-block 15
+    $$$$$:  112-block 16
+    $$$$$:  112-block 17
+    $$$$$:  112-block 18
+    $$$$$:  112-block 19
+    $$$$$:  112-block 20
+    $$$$$:  112-block 21
+       1*:  113:    assert(!ctrl.deleteTutorialFromWatchlist(s2));
+        1:  113-block  0
+        1:  113-block  1
+    %%%%%:  113-block  2
+        1:  113-block  3
+    %%%%%:  113-block  4
+        1:  114:    ctrl2.next();
+        1:  114-block  0
+       1*:  115:    assert(ctrl.getCurrentTutorial().getPresenter() == s2.getPresenter());
+        1:  115-block  0
+        1:  115-block  1
+        1:  115-block  2
+        1:  115-block  3
+    %%%%%:  115-block  4
+        1:  115-block  5
+    %%%%%:  115-block  6
+        1:  115-block  7
+        1:  115-block  8
+        1:  115-block  9
+        1:  115-block 10
+        1:  115-block 11
+        1:  115-block 12
+    $$$$$:  115-block 13
+    $$$$$:  115-block 14
+    $$$$$:  115-block 15
+    $$$$$:  115-block 16
+    $$$$$:  115-block 17
+    $$$$$:  115-block 18
+    $$$$$:  115-block 19
+    $$$$$:  115-block 20
+    $$$$$:  115-block 21
+        1:  116:    ctrl2.likeTutorial();
+        1:  116-block  0
+       1*:  117:    assert(ctrl2.getCurrentTutorial().getNoLikes() == s2.getNoLikes() + 1);
+        1:  117-block  0
+        1:  117-block  1
+    %%%%%:  117-block  2
+        1:  117-block  3
+    %%%%%:  117-block  4
+        1:  117-block  5
+        1:  117-block  6
+    $$$$$:  117-block  7
+    $$$$$:  117-block  8
+    $$$$$:  117-block  9
+        -:  118:
+        2:  119:    Iterator iter{};
+        1:  119-block  0
+        1:  119-block  1
+    $$$$$:  119-block  2
+        1:  120:    iter.next();
+        1:  120-block  0
+       1*:  121:    assert(iter.getCurrent().getPresenter() == "");
+        1:  121-block  0
+        1:  121-block  1
+        1:  121-block  2
+    %%%%%:  121-block  3
+        1:  121-block  4
+    %%%%%:  121-block  5
+        1:  121-block  6
+        1:  121-block  7
+        1:  121-block  8
+        1:  121-block  9
+    $$$$$:  121-block 10
+    $$$$$:  121-block 11
+    $$$$$:  121-block 12
+    $$$$$:  121-block 13
+    $$$$$:  121-block 14
+    $$$$$:  121-block 15
+        1:  122:    iter.add(s1);
+        1:  122-block  0
+       1*:  123:    assert(iter.getCurrent().getPresenter() == s1.getPresenter());
+        1:  123-block  0
+        1:  123-block  1
+        1:  123-block  2
+        1:  123-block  3
+    %%%%%:  123-block  4
+        1:  123-block  5
+    %%%%%:  123-block  6
+        1:  123-block  7
+        1:  123-block  8
+        1:  123-block  9
+        1:  123-block 10
+        1:  123-block 11
+        1:  123-block 12
+    $$$$$:  123-block 13
+    $$$$$:  123-block 14
+    $$$$$:  123-block 15
+    $$$$$:  123-block 16
+    $$$$$:  123-block 17
+    $$$$$:  123-block 18
+    $$$$$:  123-block 19
+    $$$$$:  123-block 20
+    $$$$$:  123-block 21
+        1:  124:    iter.emptyIterator();
+        1:  124-block  0
+       1*:  125:    assert(iter.isEmpty());
+        1:  125-block  0
+        1:  125-block  1
+    %%%%%:  125-block  2
+        1:  125-block  3
+    %%%%%:  125-block  4
+        1:  126:}
+        -:  127:
+        1:  128:void test_all() {
+        1:  129:    test_vector();
+        1:  129-block  0
+        1:  130:    test_repo_ctrl_iterator();
+        1:  131:}

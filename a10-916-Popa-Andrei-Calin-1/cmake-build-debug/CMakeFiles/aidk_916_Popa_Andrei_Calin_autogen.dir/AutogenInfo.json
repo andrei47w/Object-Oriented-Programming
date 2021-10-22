@@ -1,0 +1,437 @@
+{
+	"BUILD_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/aidk_916_Popa_Andrei_Calin_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/CMakeLists.txt",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeMinGWFindMake.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystem.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-Determine-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCCompiler.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-windres.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompilerABI.c",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/PlayButtonDelegate.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_PlayButtonDelegate.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/TutorialModel.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_TutorialModel.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/adminadddialog.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_adminadddialog.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/adminremovedialog.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_adminremovedialog.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/adminupdatedialog.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_adminupdatedialog.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/adminwindow.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_adminwindow.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/diagram.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_diagram.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/mainwindow.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_mainwindow.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/headers/userwindow.h",
+			"Mu",
+			"GT4ZMTGFRD/moc_userwindow.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/CSVRepo.h",
+			"Mu",
+			"K6S233IZAZ/moc_CSVRepo.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Controller.h",
+			"Mu",
+			"K6S233IZAZ/moc_Controller.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/HTMLRepo.h",
+			"Mu",
+			"K6S233IZAZ/moc_HTMLRepo.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/IFileRepo.h",
+			"Mu",
+			"K6S233IZAZ/moc_IFileRepo.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Iterator.h",
+			"Mu",
+			"K6S233IZAZ/moc_Iterator.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Repo.h",
+			"Mu",
+			"K6S233IZAZ/moc_Repo.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Tests.h",
+			"Mu",
+			"K6S233IZAZ/moc_Tests.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Tutorial.h",
+			"Mu",
+			"K6S233IZAZ/moc_Tutorial.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/UI.h",
+			"Mu",
+			"K6S233IZAZ/moc_UI.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Utils.h",
+			"Mu",
+			"K6S233IZAZ/moc_Utils.cpp"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers/Validator.h",
+			"Mu",
+			"K6S233IZAZ/moc_Validator.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/aidk_916_Popa_Andrei_Calin_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/aidk_916_Popa_Andrei_Calin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CHARTS_LIB", "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI",
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/headers",
+		"C:/Qt/5.12.2/mingw73_32/include",
+		"C:/Qt/5.12.2/mingw73_32/include/QtWidgets",
+		"C:/Qt/5.12.2/mingw73_32/include/QtGui",
+		"C:/Qt/5.12.2/mingw73_32/include/QtCore",
+		"C:/Qt/5.12.2/mingw73_32/mkspecs/win32-g++",
+		"C:/Qt/5.12.2/mingw73_32/include/QtANGLE",
+		"C:/Qt/5.12.2/mingw73_32/include/QtCharts",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/JetBrains/CLion 2020.3.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/aidk_916_Popa_Andrei_Calin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/moc_gui.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/aidk_916_Popa_Andrei_Calin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/5.12.2/mingw73_32/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/aidk_916_Popa_Andrei_Calin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/CSVRepo.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Controller.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/PlayButtonDelegate.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/TutorialModel.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/adminadddialog.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/adminremovedialog.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/adminupdatedialog.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/adminwindow.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/diagram.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/mainwindow.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/GUI/userwindow.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/HTMLRepo.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Iterator.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Repo.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Tests.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Tutorial.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/UI.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Utils.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/Validator.cpp",
+			"Mu"
+		],
+		[
+			"C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/main.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

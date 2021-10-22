@@ -1,0 +1,88 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/main.cpp
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include <iostream>
+        -:    6:#include "headers/UI.h"
+        -:    7:#include <crtdbg.h>
+        -:    8:
+        -:    9:
+        1:   10:int main() {
+        -:   11:    {
+        2:   12:        Repository repo{};
+        1:   12-block  0
+    $$$$$:   12-block  1
+        1:   13:        Tutorial s1{"Detecting memory leaks in Visual Studio", "CodeVault", Duration{6, 33}, 175,
+        1:   13-block  0
+    $$$$$:   13-block  1
+        3:   14:                    "https://www.youtube.com/watch?v=t1wqj6J6Vhs", 9685};
+        1:   14-block  0
+        1:   14-block  1
+        1:   14-block  2
+        1:   14-block  3
+    $$$$$:   14-block  4
+    $$$$$:   14-block  5
+    $$$$$:   14-block  6
+    $$$$$:   14-block  7
+    $$$$$:   14-block  8
+    $$$$$:   14-block  9
+    $$$$$:   14-block 10
+    $$$$$:   14-block 11
+    $$$$$:   14-block 12
+        1:   15:        Tutorial s2{"Difference between arrays and pointers in C", "CodeVault", Duration{11, 22}, 96,
+        1:   15-block  0
+    $$$$$:   15-block  1
+        3:   16:                    "https://www.youtube.com/watch?v=iSZLE9qPN14", 3398};
+        1:   16-block  0
+        1:   16-block  1
+        1:   16-block  2
+    $$$$$:   16-block  3
+    $$$$$:   16-block  4
+    $$$$$:   16-block  5
+    $$$$$:   16-block  6
+    $$$$$:   16-block  7
+    $$$$$:   16-block  8
+    $$$$$:   16-block  9
+    $$$$$:   16-block 10
+    $$$$$:   16-block 11
+        2:   17:        Tutorial s3{"title", "Google", Duration{0, 0}, 10000, "google.com", 10000};
+        1:   17-block  0
+        1:   17-block  1
+        1:   17-block  2
+        1:   17-block  3
+    $$$$$:   17-block  4
+    $$$$$:   17-block  5
+    $$$$$:   17-block  6
+    $$$$$:   17-block  7
+    $$$$$:   17-block  8
+    $$$$$:   17-block  9
+    $$$$$:   17-block 10
+    $$$$$:   17-block 11
+    $$$$$:   17-block 12
+    $$$$$:   17-block 13
+        -:   18:
+        1:   19:        repo.addTutorial(s1);
+        1:   20:        repo.addTutorial(s2);
+        1:   20-block  0
+        1:   21:        repo.addTutorial(s3);
+        1:   21-block  0
+        -:   22:
+        2:   23:        Controller ctrl{repo};
+        1:   23-block  0
+    $$$$$:   23-block  1
+        2:   24:        UI ui{ctrl};
+        1:   24-block  0
+        1:   24-block  1
+    $$$$$:   24-block  2
+        1:   25:        ui.run();
+        1:   25-block  0
+        -:   26:    }
+        -:   27:
+        1:   28:    std::cout << std::endl << "Memory leaks: " << _CrtDumpMemoryLeaks();
+        1:   29:    return 0;
+        -:   30:}

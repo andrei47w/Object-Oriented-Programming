@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f869bfdbd9714793687c75f1dccde036 CMakeFiles/Qt5CopyBinaries
+83e04254c96dca5ba47c230cc94eb597 CMakeFiles/oopTest_autogen

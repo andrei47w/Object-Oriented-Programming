@@ -1,0 +1,194 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/Controller.cpp
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Controller.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Controller.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "headers/Controller.h"
+        -:    6:
+        5:    7:bool Controller::addTutorialToRepository(const std::string& presenter, const std::string& title, double minutes, double seconds, double noLikes, const std::string& source, double noViews)
+        -:    8:{
+       10:    9:    Tutorial t{ title, presenter, Duration{ minutes, seconds },noLikes, source };
+        5:    9-block  0
+        5:    9-block  1
+    $$$$$:    9-block  2
+    $$$$$:    9-block  3
+    $$$$$:    9-block  4
+       10:   10:    return this->repo.addTutorial(t);
+        5:   10-block  0
+        5:   10-block  1
+        5:   10-block  2
+        -:   11:}
+        -:   12:
+        4:   13:bool Controller::removeTutorialFromRepository(const std::string & presenter, const std::string & title)
+        -:   14:{
+        4:   15:    return this->repo.removeTutorial(presenter, title);
+        4:   15-block  0
+        -:   16:}
+        -:   17:
+        4:   18:bool Controller::updateTutorialFromRepository(const std::string & presenter, const std::string & title, double minutes, double seconds, double noLikes, const std::string & source, const std::string newName, const std::string newTitle)
+        -:   19:{
+        8:   20:    Tutorial t = this->repo.findByPresenterAndTitle(presenter, title);
+        4:   20-block  0
+        4:   20-block  1
+    $$$$$:   20-block  2
+        4:   21:    if (t.getPresenter() == "" || t.getTitle() == "")
+        4:   21-block  0
+        4:   21-block  1
+        3:   21-block  2
+        3:   21-block  3
+        1:   21-block  4
+        3:   21-block  5
+        4:   21-block  6
+        3:   21-block  7
+        4:   21-block  8
+        4:   21-block  9
+        4:   21-block 10
+    $$$$$:   21-block 11
+    $$$$$:   21-block 12
+    $$$$$:   21-block 13
+    $$$$$:   21-block 14
+    $$$$$:   21-block 15
+    $$$$$:   21-block 16
+        1:   22:        return false;
+        1:   22-block  0
+        6:   23:    Tutorial newT = this->repo.findByPresenterAndTitle(newName, newTitle);
+        3:   23-block  0
+        3:   23-block  1
+    $$$$$:   23-block  2
+        3:   24:    if ((newT.getPresenter() != "" || newT.getTitle() != "") && (newName != presenter && newTitle != title))
+        3:   24-block  0
+        3:   24-block  1
+        1:   24-block  2
+        1:   24-block  3
+        2:   24-block  4
+        1:   24-block  5
+        1:   24-block  6
+        2:   24-block  7
+        3:   24-block  8
+        1:   24-block  9
+        3:   24-block 10
+        3:   24-block 11
+        3:   24-block 12
+    $$$$$:   24-block 13
+    $$$$$:   24-block 14
+    $$$$$:   24-block 15
+    $$$$$:   24-block 16
+    $$$$$:   24-block 17
+    $$$$$:   24-block 18
+        1:   25:        return false;
+        1:   25-block  0
+        2:   26:    this->removeTutorialFromRepository(presenter, title);
+        2:   26-block  0
+        2:   27:    this->addTutorialToRepository(newName, newTitle, minutes, seconds, noLikes, source);
+        2:   27-block  0
+        -:   28:
+        2:   29:    return true;
+        2:   29-block  0
+        -:   30:}
+        -:   31:
+        1:   32:void Controller::addTutorialToWatchlist(const Tutorial & tutorial)
+        -:   33:{
+        1:   34:    this->watchlist.addTutorial(tutorial);
+        1:   34-block  0
+        1:   35:}
+        -:   36:
+        3:   37:void Controller::configIterator(const std::string & presenter)
+        -:   38:{
+        3:   39:    this->tutoritalsIter.emptyIterator();
+        3:   39-block  0
+        6:   40:    DynamicVector<Tutorial> s = this->repo.getTutorials();
+        3:   40-block  0
+        3:   40-block  1
+    $$$$$:   40-block  2
+        3:   41:    if (presenter.size() == 0) {
+        3:   41-block  0
+        4:   42:        for (int i = 0; i < s.getSize(); i++) {
+        1:   42-block  0
+        4:   42-block  1
+        3:   42-block  2
+        3:   43:            this->tutoritalsIter.add(s[i]);
+        3:   43-block  0
+        -:   44:        }
+        -:   45:    }
+        -:   46:    else {
+        7:   47:        for (int i = 0; i < s.getSize(); i++) {
+        2:   47-block  0
+        7:   47-block  1
+        5:   47-block  2
+        5:   48:            if (s[i].getPresenter()==presenter)
+        5:   48-block  0
+        5:   48-block  1
+        1:   49:                this->tutoritalsIter.add(s[i]);
+        1:   49-block  0
+        -:   50:        }
+        -:   51:    }
+        3:   52:}
+        -:   53:
+        4:   54:Tutorial Controller::getCurrentTutorial()
+        -:   55:{
+        4:   56:    return this->tutoritalsIter.getCurrent();
+        4:   56-block  0
+        -:   57:}
+        -:   58:
+        -:   59:
+        -:   60:
+        3:   61:void Controller::startIteration() {
+        3:   62:    this->tutoritalsIter.open();
+        3:   62-block  0
+        3:   63:}
+        -:   64:
+        1:   65:bool Controller::deleteTutorialFromWatchlist(const Tutorial & tutorial)
+        -:   66:{
+        1:   67:    return this->watchlist.removeTutorial(tutorial.getPresenter(), tutorial.getTitle());
+        1:   67-block  0
+        1:   67-block  1
+        1:   67-block  2
+        1:   67-block  3
+        1:   67-block  4
+    $$$$$:   67-block  5
+    $$$$$:   67-block  6
+    $$$$$:   67-block  7
+        -:   68:}
+        -:   69:
+        1:   70:void Controller::next()
+        -:   71:{
+        1:   72:    this->tutoritalsIter.next();
+        1:   72-block  0
+        1:   73:}
+        -:   74:
+        1:   75:bool Controller::likeTutorial()
+        -:   76:{
+        1:   77:    Tutorial t = this->getCurrentTutorial();
+        1:   77-block  0
+    $$$$$:   77-block  1
+        1:   78:    t.like();
+        1:   78-block  0
+        -:   79:
+        2:   80:    return this->updateTutorialFromRepository(t.getPresenter(), t.getTitle(), t.getDuration().getMinutes(), t.getDuration().getSeconds(), t.getNoLikes(), t.getSource(), t.getPresenter(), t.getTitle());
+        1:   80-block  0
+        1:   80-block  1
+        1:   80-block  2
+        1:   80-block  3
+        1:   80-block  4
+        1:   80-block  5
+        1:   80-block  6
+        1:   80-block  7
+    $$$$$:   80-block  8
+    $$$$$:   80-block  9
+    $$$$$:   80-block 10
+    $$$$$:   80-block 11
+    $$$$$:   80-block 12
+    $$$$$:   80-block 13
+    $$$$$:   80-block 14
+    $$$$$:   80-block 15
+    $$$$$:   80-block 16
+    $$$$$:   80-block 17
+    $$$$$:   80-block 18
+    $$$$$:   80-block 19
+        -:   81:
+        -:   82:
+        -:   83:}

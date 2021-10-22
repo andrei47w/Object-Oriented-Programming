@@ -1,0 +1,180 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/headers/DynamicVector.h
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Controller.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Controller.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#pragma once
+        -:    6:
+        -:    7:#include <iostream>
+        -:    8:#include <assert.h>
+        -:    9:
+        -:   10:template<class T>
+        -:   11:class DynamicVector {
+        -:   12:private:
+        -:   13:    T *array;
+        -:   14:    unsigned int size;
+        -:   15:    unsigned int capacity;
+        -:   16:    static const unsigned int DEFAULT_CAPACITY = 10;
+        -:   17:
+        -:   18:    void resize();
+        -:   19:
+        -:   20:public:
+        -:   21:    // constructor
+        -:   22:    DynamicVector();
+        -:   23:
+        -:   24:    DynamicVector(unsigned int initialCapacity);
+        -:   25:
+        -:   26:    DynamicVector(const DynamicVector &v);
+        -:   27:
+        -:   28:    ~DynamicVector();
+        -:   29:
+        -:   30:    // Returns a pointer to an array containing all the elements of the dynamic vector
+        -:   31:    T *getAll();
+        -:   32:
+        -:   33:    // Overloading the [] operator
+        -:   34:    T &operator[](unsigned int pos);
+        -:   35:
+        -:   36:    // operator
+        -:   37:    DynamicVector<T> &operator+(const T &classObj);
+        -:   38:
+        -:   39:    // Deletes an element from a given position
+        -:   40:    void deleteElem(unsigned int pos);
+        -:   41:
+        -:   42:    // Adds an element to the end of the dynamic vector
+        -:   43:    void add(const T &item);
+        -:   44:
+        -:   45:    T *getAllElems() const;
+        -:   46:
+        -:   47:    // Returns the size of the dynamic vector
+        -:   48:    unsigned int getSize();
+        -:   49:};
+        -:   50:
+        -:   51:
+        -:   52:template<class T>
+        -:   53:inline DynamicVector<T>::DynamicVector() {
+        -:   54:    capacity = DEFAULT_CAPACITY;
+        -:   55:    size = 0;
+        -:   56:    array = new T[DEFAULT_CAPACITY];
+        -:   57:
+        -:   58:}
+        -:   59:
+        -:   60:template<class T>
+        -:   61:DynamicVector<T>::DynamicVector(unsigned int initialCapacity) {
+        -:   62:    array = new T[initialCapacity];
+        -:   63:    size = 0;
+        -:   64:    capacity = initialCapacity;
+        -:   65:}
+        -:   66:
+        -:   67:template<class T>
+       27:   68:DynamicVector<T>::~DynamicVector() {
+      297:   69:    delete[] array;
+       27:   69-block  0
+       27:   69-block  1
+      297:   69-block  2
+      270:   69-block  3
+       27:   69-block  4
+       27:   70:}
+        -:   71:
+        -:   72:template<class T>
+        -:   73:
+      108:   74:unsigned int DynamicVector<T>::getSize() {
+      108:   75:    return size;
+      108:   75-block  0
+        -:   76:}
+        -:   77:
+        -:   78:template<class T>
+        -:   79:T *DynamicVector<T>::getAll() {
+        -:   80:    return array;
+        -:   81:}
+        -:   82:
+        -:   83:
+        -:   84:template<class T>
+       40:   85:T &DynamicVector<T>::operator[](unsigned int index) {
+       40:   86:    return array[index];
+       40:   86-block  0
+        -:   87:}
+        -:   88:
+        -:   89:template<class T>
+       17:   90:DynamicVector<T>::DynamicVector(const DynamicVector &v) {
+       17:   91:    this->size = v.size;
+       17:   92:    this->capacity = v.capacity;
+     187*:   93:    this->array = new T[this->capacity];
+       17:   93-block  0
+       17:   93-block  1
+    %%%%%:   93-block  2
+       17:   93-block  3
+      187:   93-block  4
+      170:   93-block  5
+      170:   93-block  6
+    $$$$$:   93-block  7
+    $$$$$:   93-block  8
+    $$$$$:   93-block  9
+    $$$$$:   93-block 10
+    $$$$$:   93-block 11
+    $$$$$:   93-block 12
+       50:   94:    for (int i = 0; i < this->size; i++)
+       17:   94-block  0
+       50:   94-block  1
+       33:   95:        this->array[i] = v.array[i];
+       33:   95-block  0
+       17:   96:}
+       17:   96-block  0
+        -:   97:
+        -:   98:template<class T>
+        -:   99:void DynamicVector<T>::resize() {
+        -:  100:    this->capacity ++;
+        -:  101:
+        -:  102:    T *els = new T[this->capacity];
+        -:  103:    for (int i = 0; i < this->size; i++)
+        -:  104:        els[i] = this->array[i];
+        -:  105:
+        -:  106:    delete[] this->array;
+        -:  107:    this->array = els;
+        -:  108:}
+        -:  109:
+        -:  110:template<class T>
+        -:  111:void DynamicVector<T>::add(const T &e) {
+        -:  112:    if (this->size == this->capacity)
+        -:  113:        this->resize();
+        -:  114:    this->array[this->size] = e;
+        -:  115:    this->size++;
+        -:  116:}
+        -:  117:
+        -:  118:template<class T>
+        -:  119:T *DynamicVector<T>::getAllElems() const {
+        -:  120:    return this->array;
+        -:  121:}
+        -:  122:
+        -:  123:
+        -:  124:template<class T>
+        -:  125:void DynamicVector<T>::deleteElem(unsigned int pos) {
+        -:  126:    if (pos < 0 || pos >= this->size)
+        -:  127:        return;
+        -:  128:    T *els = new T[this->capacity];
+        -:  129:    for (int i = 0; i < pos; i++) {
+        -:  130:        els[i] = this->array[i];
+        -:  131:    }
+        -:  132:    for (int i = pos; i < this->size; i++) {
+        -:  133:        els[i] = this->array[i + 1];
+        -:  134:    }
+        -:  135:    delete[] this->array;
+        -:  136:    this->array = els;
+        -:  137:    this->size--;
+        -:  138:}
+        -:  139:
+        -:  140:template<class T>
+        -:  141:DynamicVector<T> &DynamicVector<T>::operator+(const T &classObj) {
+        -:  142:    this->add(classObj);
+        -:  143:    return *this;
+        -:  144:}
+        -:  145:
+        -:  146:template<class T>
+        -:  147:DynamicVector<T> &operator+(const T &classObj, DynamicVector<T> &s) {
+        -:  148:    s.add(classObj);
+        -:  149:    return s;
+        -:  150:}
+        -:  151:

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\aidk_916_Popa_Andrei_Calin.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\aidk_916_Popa_Andrei_Calin.dir/objects.a @CMakeFiles\aidk_916_Popa_Andrei_Calin.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\aidk_916_Popa_Andrei_Calin.dir/objects.a -Wl,--no-whole-archive  -o aidk_916_Popa_Andrei_Calin.exe -Wl,--out-implib,libaidk_916_Popa_Andrei_Calin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\aidk_916_Popa_Andrei_Calin.dir\linklibs.rsp

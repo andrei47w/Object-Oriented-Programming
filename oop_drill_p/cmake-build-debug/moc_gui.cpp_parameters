@@ -1,0 +1,8 @@
+-IC:/Users/Andrei/Desktop/oop_drill_p/GUI
+-IC:/Users/Andrei/Desktop/oop_drill_p/headers
+-IC:/Users/Andrei/Desktop/oop_drill_p
+-IC:/Users/Andrei/Desktop/oop_drill_p/cmake-build-debug
+-DWIN32
+-o
+C:/Users/Andrei/Desktop/oop_drill_p/cmake-build-debug/moc_gui.cpp
+C:/Users/Andrei/Desktop/oop_drill_p/gui.cpp

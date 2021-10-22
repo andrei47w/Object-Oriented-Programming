@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+60a85684564763b8115d1b294f9ea072 CMakeFiles/aidk_916_Popa_Andrei_Calin_autogen

@@ -1,0 +1,4 @@
+C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/aidk_916_Popa_Andrei_Calin.dir
+C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Andrei/Documents/GitHub/a10-916-Popa-Andrei-Calin-1/cmake-build-debug/CMakeFiles/aidk_916_Popa_Andrei_Calin_autogen.dir

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/UI.cpp
+iostream
+-
+UI.h
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/UI.h
+
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/UI.h
+person.cpp
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/person.cpp
+
+C:/Users/Andrei/Documents/GitHub/t2-916-Popa-Andrei-Calin-1/person.cpp
+iostream
+-
+vector
+-
+

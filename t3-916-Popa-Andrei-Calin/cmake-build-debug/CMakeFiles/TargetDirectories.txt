@@ -1,0 +1,5 @@
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/CMakeFiles/oopTest.dir
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/CMakeFiles/Qt5CopyBinaries.dir
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Andrei/Documents/GitHub/t3-916-Popa-Andrei-Calin/cmake-build-debug/CMakeFiles/oopTest_autogen.dir

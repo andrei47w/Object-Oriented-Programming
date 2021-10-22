@@ -1,0 +1,159 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/Repo.cpp
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Repo.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\Repo.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#include "headers/Repo.h"
+        -:    6:
+        -:    7:
+       15:    8:bool Repository::addTutorial(const Tutorial &t) {
+       45:    9:    Tutorial tut = findByPresenterAndTitle(t.getPresenter(), t.getTitle());
+       15:    9-block  0
+       15:    9-block  1
+       15:    9-block  2
+       15:    9-block  3
+    $$$$$:    9-block  4
+    $$$$$:    9-block  5
+    $$$$$:    9-block  6
+       15:   10:    if (!tut.getPresenter().empty() || !tut.getSource().empty())
+       15:   10-block  0
+       13:   10-block  1
+       13:   10-block  2
+        2:   10-block  3
+       13:   10-block  4
+       15:   10-block  5
+       13:   10-block  6
+       15:   10-block  7
+       15:   10-block  8
+       15:   10-block  9
+    $$$$$:   10-block 10
+    $$$$$:   10-block 11
+    $$$$$:   10-block 12
+    $$$$$:   10-block 13
+    $$$$$:   10-block 14
+    $$$$$:   10-block 15
+        2:   11:        return false;
+        2:   11-block  0
+       13:   12:    this->tutorials.add(t);
+       13:   12-block  0
+       13:   13:    return true;
+       13:   13-block  0
+        -:   14:}
+        -:   15:
+        -:   16:
+       30:   17:Tutorial Repository::findByPresenterAndTitle(const std::string &presenter, const std::string &title) {
+       30:   18:    Tutorial *tutorialsInDynamicVector = this->tutorials.getAllElems();
+       30:   18-block  0
+        -:   19:
+       59:   20:    for (int i = 0; i < this->tutorials.getSize(); i++) {
+       59:   20-block  0
+       29:   20-block  1
+       42:   21:        Tutorial s = tutorialsInDynamicVector[i];
+       42:   21-block  0
+    $$$$$:   21-block  1
+       42:   22:        if (s.getPresenter() == presenter && s.getTitle() == title)
+       42:   22-block  0
+       42:   22-block  1
+       14:   22-block  2
+       14:   22-block  3
+       13:   22-block  4
+       29:   22-block  5
+       42:   22-block  6
+       14:   22-block  7
+       42:   22-block  8
+       42:   22-block  9
+       42:   22-block 10
+    $$$$$:   22-block 11
+    $$$$$:   22-block 12
+    $$$$$:   22-block 13
+    $$$$$:   22-block 14
+    $$$$$:   22-block 15
+    $$$$$:   22-block 16
+       13:   23:            return s;
+       13:   23-block  0
+        -:   24:    }
+        -:   25:
+       17:   26:    return Tutorial{};
+       17:   26-block  0
+        -:   27:}
+        -:   28:
+        -:   29:
+        6:   30:bool Repository::removeTutorial(const std::string &presenter, const std::string &title) {
+       12:   31:    Tutorial t = this->findByPresenterAndTitle(presenter, title);
+        6:   31-block  0
+        6:   31-block  1
+    $$$$$:   31-block  2
+        6:   32:    if (t.getPresenter().empty() && t.getTitle().empty())
+        6:   32-block  0
+        6:   32-block  1
+        2:   32-block  2
+        2:   32-block  3
+        2:   32-block  4
+        4:   32-block  5
+        6:   32-block  6
+        2:   32-block  7
+        6:   32-block  8
+        6:   32-block  9
+        6:   32-block 10
+    $$$$$:   32-block 11
+    $$$$$:   32-block 12
+    $$$$$:   32-block 13
+    $$$$$:   32-block 14
+    $$$$$:   32-block 15
+    $$$$$:   32-block 16
+        2:   33:        return false;
+        2:   33-block  0
+        4:   34:    int pos = this->findPosOfTutorial(t);
+        4:   34-block  0
+        4:   35:    this->tutorials.deleteElem(pos);
+        4:   35-block  0
+        4:   36:    return true;
+        4:   36-block  0
+        -:   37:}
+        -:   38:
+        7:   39:int Repository::findPosOfTutorial(const Tutorial &t) {
+       14:   40:    for (int i = 0; i < this->tutorials.getSize(); i++) {
+        7:   40-block  0
+       14:   40-block  1
+        7:   40-block  2
+       13:   41:        if (this->tutorials[i].getPresenter() == t.getPresenter() && this->tutorials[i].getTitle() == t.getTitle())
+       13:   41-block  0
+       13:   41-block  1
+       13:   41-block  2
+        6:   41-block  3
+        6:   41-block  4
+        6:   41-block  5
+        6:   41-block  6
+        7:   41-block  7
+       13:   41-block  8
+        6:   41-block  9
+       13:   41-block 10
+        6:   41-block 11
+       13:   41-block 12
+       13:   41-block 13
+       13:   41-block 14
+       13:   41-block 15
+       13:   41-block 16
+    $$$$$:   41-block 17
+    $$$$$:   41-block 18
+    $$$$$:   41-block 19
+    $$$$$:   41-block 20
+    $$$$$:   41-block 21
+    $$$$$:   41-block 22
+    $$$$$:   41-block 23
+    $$$$$:   41-block 24
+    $$$$$:   41-block 25
+    $$$$$:   41-block 26
+    $$$$$:   41-block 27
+        6:   42:            return i;
+        6:   42-block  0
+        -:   43:    }
+        1:   44:    return -1;
+        1:   44-block  0
+        -:   45:}
+        -:   46:
+        -:   47:

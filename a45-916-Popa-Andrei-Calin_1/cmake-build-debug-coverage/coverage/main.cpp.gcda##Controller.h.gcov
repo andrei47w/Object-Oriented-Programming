@@ -1,0 +1,122 @@
+        -:    0:Source:C:/Users/Andrei/Documents/GitHub/a45-916-Popa-Andrei-Calin_1/headers/Controller.h
+        -:    0:Graph:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\Andrei\Documents\GitHub\a45-916-Popa-Andrei-Calin_1\cmake-build-debug-coverage\CMakeFiles\a45_916_Popa_Andrei_Calin_tmp.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Andrei on 3/21/2021.
+        -:    3://
+        -:    4:
+        -:    5:#pragma once
+        -:    6:
+        -:    7:#include "Repo.h"
+        -:    8:#include "Iterator.h"
+        -:    9:
+        -:   10:class Controller {
+        -:   11:    Repository repo;
+        -:   12:    Repository watchlist;
+        -:   13:    Iterator tutoritalsIter;
+        -:   14:public:
+        3:   15:    Controller(const Repository& r) : repo{ r }, watchlist(), tutoritalsIter() {}
+        3:   15-block  0
+        3:   15-block  1
+        3:   15-block  2
+    $$$$$:   15-block  3
+    $$$$$:   15-block  4
+        -:   16:
+        -:   17:    Repository getRepo() const { return repo; }
+        -:   18:    Repository getWatchlist() const { return watchlist; }
+        -:   19:    /*
+        -:   20:            Adds a tutorial with the given data to the tutorial repository
+        -:   21:        In:
+        -:   22:            presenter: string
+        -:   23:            title: string
+        -:   24:            minutes: double
+        -:   25:            seconds: double
+        -:   26:            noLikes: double
+        -:   27:            source: string
+        -:   28:        Out:
+        -:   29:            true if tutorial was added successfully
+        -:   30:            false if it wasn't
+        -:   31:    */
+        -:   32:    bool addTutorialToRepository(const std::string &presenter, const std::string &title, double minutes, double seconds,
+        -:   33:                                 double noLikes, const std::string &source, double d = 0);
+        -:   34:
+        -:   35:    /*
+        -:   36:            Removes a tutorial from the repository
+        -:   37:        In:
+        -:   38:            presenter: string
+        -:   39:            title: string
+        -:   40:        Out:
+        -:   41:            true if tutorial was removed successfully
+        -:   42:            false if it wasn't
+        -:   43:    */
+        -:   44:    bool removeTutorialFromRepository(const std::string &presenter, const std::string &title);
+        -:   45:
+        -:   46:
+        -:   47:    /*
+        -:   48:            Updates a tutorial from the repository
+        -:   49:        In:
+        -:   50:            presenter: string
+        -:   51:            title: string
+        -:   52:            minutes: double
+        -:   53:            seconds: double
+        -:   54:            noLikes: double
+        -:   55:            source: string
+        -:   56:            newName: string
+        -:   57:            newTitle: string
+        -:   58:        Out:
+        -:   59:            true if tutorial was updated successfully
+        -:   60:            false if it wasn't
+        -:   61:    */
+        -:   62:    bool
+        -:   63:    updateTutorialFromRepository(const std::string &presenter, const std::string &title, double minutes, double seconds,
+        -:   64:                                 double noLikes, const std::string &source, const std::string newName,
+        -:   65:                                 const std::string newTitle);
+        -:   66:
+        -:   67:    /*
+        -:   68:	        Adds a given tutorial to the current playlist.
+        -:   69:        Input:
+        -:   70:            tutorial
+        -:   71:	*/
+        -:   72:    void addTutorialToWatchlist(const Tutorial& tutorial);
+        -:   73:
+        -:   74:    /*
+        -:   75:            Configures the iterator dynamic array
+        -:   76:        Input:
+        -:   77:            the presenter we want to iterate
+        -:   78:    */
+        -:   79:    void configIterator(const std::string & presenter);
+        -:   80:
+        -:   81:    /*
+        -:   82:        Returns the current tutorial
+        -:   83:    */
+        -:   84:    Tutorial getCurrentTutorial();
+        -:   85:
+        -:   86:    /*
+        -:   87:        Start and plays the first tutorial
+        -:   88:    */
+        -:   89:    void startIteration();
+        -:   90:
+        -:   91:    /*
+        -:   92:            Deletes the given tutorial from the watchlist
+        -:   93:        Input:
+        -:   94:            tutorial
+        -:   95:        output:
+        -:   96:            true if the tutorial was deleted
+        -:   97:    */
+        -:   98:    bool deleteTutorialFromWatchlist(const Tutorial & tutorial);
+        -:   99:
+        -:  100:    /*
+        -:  101:        Plays the next tutorial from the iterator
+        -:  102:    */
+        -:  103:    void next();
+        -:  104:
+        -:  105:    /*
+        -:  106:            Increases the number of likes of the current tutorial
+        -:  107:        Output:
+        -:  108:            true if it "liked" the tutorial successfully
+        -:  109:    */
+        -:  110:    bool likeTutorial();
+        -:  111:};
+        -:  112:

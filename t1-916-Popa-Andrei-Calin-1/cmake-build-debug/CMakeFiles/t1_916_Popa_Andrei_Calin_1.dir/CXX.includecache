@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Controller.h
+Repository.h
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Repository.h
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/DynamicVector.h
+iostream
+-
+assert.h
+-
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Gene.h
+iostream
+-
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Repository.h
+DynamicVector.h
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/DynamicVector.h
+Gene.h
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Gene.h
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/UI.cpp
+UI.h
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/UI.h
+string
+-
+vector
+-
+dvec.h
+-
+
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/UI.h
+vector
+-
+Controller.h
+C:/Users/Andrei/Documents/GitHub/t1-916-Popa-Andrei-Calin-1/Controller.h
+

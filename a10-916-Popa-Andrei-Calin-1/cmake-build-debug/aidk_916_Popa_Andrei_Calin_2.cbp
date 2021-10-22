@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="aidk_916_Popa_Andrei_Calin_2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\5.12.2\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aidk_916_Popa_Andrei_Calin_2">
+				<Option output="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/aidk_916_Popa_Andrei_Calin_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/aidk_916_Popa_Andrei_Calin_2_autogen/include"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtGui"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtCore"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 aidk_916_Popa_Andrei_Calin_2"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aidk_916_Popa_Andrei_Calin_2/fast">
+				<Option output="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/aidk_916_Popa_Andrei_Calin_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/aidk_916_Popa_Andrei_Calin_2_autogen/include"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI"/>
+					<Add directory="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtWidgets"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtGui"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/include/QtCore"/>
+					<Add directory="C:/Qt/5.12.2/mingw73_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 aidk_916_Popa_Andrei_Calin_2/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aidk_916_Popa_Andrei_Calin_2_autogen">
+				<Option working_dir="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 aidk_916_Popa_Andrei_Calin_2_autogen"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/CSVRepository.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Controller.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminadddialog.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminadddialog.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminremovedialog.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminremovedialog.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminupdatedialog.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminupdatedialog.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminwindow.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/adminwindow.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/mainwindow.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/mainwindow.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/userwindow.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/GUI/userwindow.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Iterator.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Repo.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Tests.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Tutorial.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/UI.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Utils.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/Validator.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/cmake-build-debug/aidk_916_Popa_Andrei_Calin_2_autogen/mocs_compilation.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/CSVRepository.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Controller.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/IFileRepository.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Iterator.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Repo.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Tests.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Tutorial.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/UI.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Utils.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/headers/Validator.h">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/main.cpp">
+			<Option target="aidk_916_Popa_Andrei_Calin_2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrei/Desktop/aidk-916-Popa-Andrei-Calin - Copy/../../../../Qt/5.12.2/mingw73_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.12.2\mingw73_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
